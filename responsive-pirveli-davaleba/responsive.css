@@ -1,0 +1,238 @@
+@media screen and (min-width: 902px){
+    .main-grid-container{
+        display:none;
+    }
+    .main-grid-container2{
+        display: grid;
+        grid-template-columns: 255px 255px 255px 255px;
+        grid-template-rows: 282px 266px;
+        width: 1110px;
+        height: 572px;
+        position: relative;
+        top: 164px;
+        
+        gap: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-grid-container2-item1{
+        padding: 25px;
+        font-family: 'Barlow', sans-serif;
+        
+        grid-column: 1 / 3;
+        background: #733FC8;
+    border-radius: 12px;
+        
+        
+
+
+    }
+    .main-grid-container2-item2{
+        background: #48556A;
+    border-radius: 12px;
+    padding: 25px;
+        
+    }
+    
+    .main-grid-container2-item3{
+        
+        grid-column: 4 / 6;
+        grid-row: 1 /  3;
+        background: #FFFFFF;
+    border-radius: 12px;
+    padding: 25px;
+        
+
+
+    }
+    
+    .main-grid-container2-item5{
+        
+        
+        background: #FFFFFF;
+    border-radius: 12px;
+    padding: 25px;
+
+
+    }
+    .main-grid-container2-item6{
+        
+        grid-row: 2 / 3;
+        grid-column: 2 / 4;
+        background: #19202D;
+    border-radius: 12px;
+    padding: 25px;
+
+
+    }
+    .grid-cont1{
+        display: grid;
+        grid-template-columns: 476px;
+        grid-template-rows: 72px 90px;
+        gap: 10px;
+    }
+    .grid-cont1-item1{
+        position: relative;
+        top: 10px;
+        color: white;
+        
+
+
+
+
+    }
+    .grid-cont1-item2{
+        opacity: 70%;
+        color:#CFCFCF;
+    }
+    .grid-cont2{
+        display: grid;
+        grid-template-columns: 191px;
+        grid-template-rows: 72px 90px;
+        gap: 14px;
+
+    }
+    .grid-cont2-item1{
+        font-family: 'Barlow', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        
+        position: relative;
+        top: 10px;
+        color: white;
+        
+    }
+    .grid-cont2-item2{
+        font-family: 'Barlow', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: white;
+        opacity: 70%;
+
+        
+
+    }
+    .grid-cont3{
+        display: grid;
+        grid-template-columns: 192px;
+        grid-template-rows: 72px 380px;
+    }
+
+    .grid-cont3-item1{
+        font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+width: 191px;
+height: 72px;
+color: #48556A;
+position: relative;
+top: 15px;
+
+
+    }
+    .grid-cont3-item2{
+color: #48556A;
+font-family: 'Barlow', sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+position: relative;
+top: 40px;
+
+
+    }
+    .grid-cont4{
+        display: grid;
+        grid-template-columns: 192px;
+        grid-template-rows: 72px;
+        grid-template-rows: 72px;
+        gap: 20px;
+    }
+    .grid-cont4-item1{
+        color: #48556A;
+        font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+width: 191px;
+height: 72px;
+position: relative;
+top: 10px;
+
+
+    }
+    .grid-cont4-item2{
+        color: #48556A;
+        font-family: 'Barlow', sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+width: 191px;
+height: 72px;
+opacity: 70%;
+
+
+
+    }
+    .grid-cont5{
+        display: grid;
+        grid-template-columns: 476px;
+        grid-template-rows: 72px 72px;
+        gap: 20px;
+
+    }
+    .grid-cont5-item1{
+        color: #ECF2F8;
+        font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+width: 476px;
+height: 72px;
+position: relative;
+top: 10px;
+
+
+
+    }
+    .grid-cont5-item2{
+        color: #FFFFFF;
+        font-family: 'Barlow', sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+width: 476px;
+height: 72px;
+opacity: 70%;
+
+
+
+
+    }
+    
+}
+@media screen and (max-width: 902px){
+    .main-grid-container2{
+        display: none;
+    }
+
+}

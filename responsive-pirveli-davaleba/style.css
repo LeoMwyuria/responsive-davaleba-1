@@ -1,0 +1,402 @@
+body{
+    background-color: azure;
+}
+
+
+
+.main-grid-container{
+    display: grid;
+    grid-template-rows: 444px 240px 222px 384px 438px;
+    
+    grid-template-columns: 327px;
+    justify-content: center;
+    gap: 30px;
+}
+.main-grid-items1{
+    
+    padding: 25px;
+    background: #733FC8;
+    border-radius: 12px;
+
+}
+.main-grid-items2{
+    
+    padding: 25px;
+    background: #48556A;
+    border-radius: 12px;
+
+}
+.main-grid-items3{
+    
+    padding: 25px;
+    background: #FFFFFF;
+    border-radius: 12px;
+
+}
+.main-grid-items4{
+    
+    padding: 25px;
+    background: #19202D;
+    border-radius: 12px;
+
+}
+.main-grid-items5{
+    
+    padding: 25px;
+    background: #FFFFFF;
+    border-radius: 12px;
+
+}
+.grid-container1 img{
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+    display: grid;
+
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: 28px 76px;
+    gap: 0px 10px;
+    grid-template-rows: 28px;
+    z-index: 2;
+    
+    
+    
+}
+.grid-item2 name{
+    font-family: 'Barlow', sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0px;
+text-align: left;
+color: white;
+
+
+
+}
+.grid-item2 name2{
+    font-family: 'Barlow', sans-serif;
+font-size: 10px;
+font-weight: 500;
+line-height: 11px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 50%;
+
+
+
+
+
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 263px;
+    grid-template-rows: 120px 180px;
+    gap: 50px;
+    position: relative;
+    top: 20px;
+ 
+}
+.grid-item3{
+    font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+width: 263px;
+height: 120px;
+top: 143px;
+left: 56px;
+color: #FFFFFF;
+z-index: 2;
+
+
+
+
+
+}
+.grid-item4{
+    font-family: 'Barlow', sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+width: 247px;
+height: 180px;
+top: 303px;
+left: 56px;
+opacity:70%;
+
+color: #CFCFCF;
+
+
+
+}
+.div-image{
+    width: 104px ;
+    height: 102px;
+    background-image: url(“.png);
+    background-size: cover;
+    position: relative;
+    bottom: 390px;
+    left: 170px;
+    z-index: 1;
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: 28px 82px;
+    gap: 0px 10px;
+    grid-template-rows: 28px;
+    z-index: 2;
+    
+}
+.grid-container4{
+    display:grid;
+    grid-template-columns: 265px;
+    grid-template-rows: 48px 72px;
+    gap: 15px;
+}
+.grid-item5{
+    font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+width: 263px ;
+height: 48px;
+top: 5px;
+color: #FFFFFF;
+
+
+position: relative;
+
+
+}
+.grid-item6{
+    font-family: 'Barlow', sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+opacity: 70%;
+color: white;
+
+
+}
+.grid-container5{
+    display: grid;
+    grid-template-columns: 28px 76px;
+    gap: 0px 10px;
+    grid-template-rows: 28px;
+    z-index: 2;
+    
+
+}
+.grid-item7 name{
+    font-family: 'Barlow', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #48556A;
+
+}
+.grid-item7 name2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 11px;
+    letter-spacing: 0px;
+    color: #48556A;
+    opacity: 50%;
+    
+    
+    
+    
+    
+    }
+.grid-container6{
+    display: grid;
+    grid-template-columns: 270px;
+    grid-template-rows: 48px 54px;
+}
+.grid-container6-item1{
+    font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+ text-align: left;    
+letter-spacing: 0px;
+text-align: left;
+width: 263px;
+height: 48px;
+top: 12px;
+color: #48556A;
+
+
+position: relative;
+
+}
+.grid-container6-item2{
+    font-family: 'Barlow', sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+width: 263px;
+height: 54px;
+opacity: 0.7px;
+color: #48556A;
+position: relative;
+top: 30px;
+
+
+
+}
+.grid-container7{
+    display: grid;
+    grid-template-columns: 28px 76px;
+    gap: 0px 10px;
+    grid-template-rows: 28px;
+    z-index: 2;
+
+}
+.grid-item8 name{
+    font-family: 'Barlow', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:white;
+
+}
+.grid-item8 name2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #48556A;
+
+}
+.grid-container8{
+    display:grid;
+    grid-template-columns: 270px;
+    grid-template-rows: 120px 144px;
+
+}
+.grid-container8-item1{
+ width: 263px;
+height: 120px;
+font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+position: relative;
+top: 15px;
+color: white;
+
+
+
+}
+.grid-container8-item2{
+    width: 263px;
+height: 144px;
+opacity: 70%;
+font-family: 'Barlow', sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+position: relative;
+top: 50px;
+color: white;
+
+
+
+}
+
+.grid-item10 name{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #48556A;
+}
+.grid-item10 name2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 11px;
+    letter-spacing: 0px;
+    color: #48556A;
+    opacity: 50%;
+    
+    
+    
+    
+    
+    }
+.grid-container9{
+    display: grid;
+    grid-template-columns: 28px 76px;
+    gap: 0px 10px;
+    grid-template-rows: 28px;
+    z-index: 2;
+
+}
+.grid-container10{
+    display:grid;
+    grid-template-columns: 263px ;
+    grid-template-rows: 48px 270px;
+    gap: 30px;
+}
+.grid-container10-item1{
+ color: #48556A;
+ font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+width: 290px;
+height: 48px;
+position: relative;
+top: 10px;
+
+
+    
+
+
+}
+.grid-container10-item2{
+    color: #48556A;
+    font-family: 'Barlow', sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+width: 263px;
+height: 270px;
+opacity: 70%;
+
+
+
+}
