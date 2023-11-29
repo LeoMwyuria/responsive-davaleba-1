@@ -1,0 +1,111 @@
+.main-grid-container1{
+    display: grid;
+    grid-template-columns: 310px;
+    grid-template-rows: 40px 40px  78px 225px 225px 225px 225px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-left: 40px;
+    padding-top: 40px;
+    
+    height: 1200px;
+    gap: 20px;
+}
+.main-grid-item1{
+    color: #4D4F62;
+font-family: 'Poppins';
+font-size: 24px;
+font-style: normal;
+font-weight: 275;
+line-height: normal;
+letter-spacing: 0.167px;
+text-align: left;
+}
+.main-grid-item2{
+    color: #4D4F62;
+text-align: center;
+font-family: 'Poppins';
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.167px;
+text-align: left;
+}
+.main-grid-item3{
+    color: #4D4F62;
+text-align: center;
+font-family: 'Poppins';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.104px;
+opacity: 0.5;
+}
+.main-grid-item4{
+    border-radius: 4px;
+    border-top: 3px solid #44D3D2;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    height:200px;
+}
+.items1{
+    color: #4D4F62;
+font-family: 'Poppins';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.items2{
+    color: #4D4F62;
+font-family: 'Poppins';
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; 
+letter-spacing: 0.09px;
+}
+.items3{
+    
+    position: relative;
+    top: 50px;
+    display: grid;
+    justify-items: end;
+}
+.main-grid-item5{
+    border-radius: 4px;
+    border-top: 3px solid #EA5454;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    height:200px;
+    
+    
+}
+.main-grid-item6{
+    border-radius: 4px;
+    border-top: 3px solid #FCAE4A;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    height:200px;
+    
+    
+}
+.main-grid-item7{
+    border-radius: 4px;
+    border-top: 3px solid #549EF2;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    height:200px;
+
+}
+.main-grid-container2{
+    display: none;
+}

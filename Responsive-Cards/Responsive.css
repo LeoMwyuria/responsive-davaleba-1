@@ -1,0 +1,119 @@
+@media  screen and  (min-width:1500px){
+    .main-grid-container1{
+        display: none;
+    }
+    .main-grid-container2{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 165px;
+        padding-right: 165px;
+        width: 1440px;
+        display: grid;
+        grid-template-columns:1110px ;
+        grid-template-rows: 175px  765px;
+        gap: 64px;
+        
+        margin-left: auto;
+        justify-content: center;
+        margin-right: auto;
+    }
+    .main-grid-container2-items1{
+        display: grid;
+        grid-template-columns: 540px ;
+        grid-template-rows: 55px 55px 55px;
+        gap: 10px;
+        
+        justify-content: center;
+        text-align: left;
+    
+    }
+    .main-grid-container2-items2{
+        display: grid;
+        grid-template-columns: 355px 355px 355px;
+        gap: 10px;
+    }
+    .cont2-items1{
+        color: #4D4F62;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    
+
+    }
+    .cont2-items2{
+        color: #4D4F62;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    
+    }
+    .cont2-items3{
+        color: #4D4F62;
+    
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.104px;
+
+    }
+    .grid-cont2-items1{
+        border-radius: 4px;
+    border-top: 3px solid #44D3D2;
+    background-color: white;
+    padding: 8px;
+    padding-top: 0;
+    height:150px ;
+    position: relative;
+    top: 100px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    height:200px;
+
+    display: grid;
+    align-items: center;
+
+    }
+    .middle-item1{
+        border-radius: 4px;
+    border-top: 3px solid #EA5454;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    height:200px;
+
+    }
+    .middle-item2{
+        border-radius: 4px;
+    border-top: 3px solid #FCAE4A;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    height:180px;
+
+    }
+    .grid-cont2-items3{
+        border-radius: 4px;
+        border-top: 3px solid #549EF2;
+        background-color: white;
+        padding: 8px;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+        height:200px;
+        position: relative;
+        top: 95px;
+        
+
+    }
+    body{
+        overflow-x: hidden;
+    }
+    
+
+}
